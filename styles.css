@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Questrial&display=swap");
+
+:root {
+    --text: #336c71;
+    --background: #d9d9d9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--background);
+    font-family: "Questrial", sans-serif;
+}
+
+li a {
+    color: var(--text);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.inicio:hover {
+    color: #e0d500;
+}
+
+.clientes:hover {
+    color: #ffffff;
+}
+
+.nosotros:hover {
+    color: #8e3fca;
+}
+
+.contacto:hover {
+    color: #000000;
+}
