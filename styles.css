@@ -145,6 +145,7 @@ main {
 }
 
 #about h2 {
+  padding: 0px 30px;
   font-size: 36px;
   font-weight: 500;
 }

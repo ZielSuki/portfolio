@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 780px) {
+  .heroinfo p {
+    width: 100%;
+  }
+
   iframe {
     display: none;
   }
