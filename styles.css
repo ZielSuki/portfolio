@@ -22,7 +22,7 @@ header {
   color: var(--secondary);
   background-color: var(--thirdbackground);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 2%;
   position: fixed;
@@ -30,18 +30,24 @@ header {
   z-index: 2;
 }
 
-.navlinks,
-.navbar {
+#menu-toggle,
+.menu-label {
+  display: none;
+}
+
+.navbar,
+.navlinks {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .navbar {
-  max-width: 1200px;
-  width: 100%;
+  gap: 150px;
+}
+
+.navlinks {
+  gap: 10px;
 }
 
 span a {
@@ -97,7 +103,6 @@ main {
   font-size: 48px;
   font-weight: 800;
   width: 80%;
-  min-width: 500px;
 }
 .heroinfo p {
   font-size: 15px;
